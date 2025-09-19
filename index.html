@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discover Sculpture</title>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/stock-photo-realisitc-image-with-colorful-effects_896782-12245.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Discover Sculpture</h1>
+
+  <p>
+    Sculpture is the art of creating three-dimensional works by shaping materials such as stone, metal, or wood. It has been a powerful form of expression throughout human history.
+  </p>
+
+  <h2>Famous Sculpture Styles</h2>
+  <ul>
+    <li>Classical</li>
+    <li>Modern</li>
+    <li>Abstract</li>
+    <li>Minimalist</li>
+    <li>Conceptual</li>
+  </ul>
+
+  <h2>Share Your Favorite Sculpture</h2>
+  <form action="#" method="post">
+    <label for="artist">Sculptor's Name:</label><br />
+    <input type="text" id="artist" name="artist" placeholder="Enter sculptor's name" required /><br /><br />
+
+    <label for="title">Sculpture Title:</label><br />
+    <input type="text" id="title" name="title" placeholder="Enter sculpture title" required /><br /><br />
+
+    <label for="material">Material Used:</label><br />
+    <input type="text" id="material" name="material" placeholder="e.g., Marble, Bronze" required /><br /><br />
+
+    <label for="description">Why do you like this sculpture?</label><br />
+    <textarea id="description" name="description" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea><br /><br />
+
+    <input type="submit" value="Submit Sculpture" />
+  </form>
+
+</body>
+</html>
